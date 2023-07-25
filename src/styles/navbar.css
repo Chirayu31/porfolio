@@ -1,0 +1,47 @@
+/* navigation start */
+.nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 50px;
+    font-size: 36px;
+}
+
+.nav p {
+    margin: 0px;
+    cursor: pointer;
+}
+
+.left {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+@media only screen and (max-width: 700px) {
+    .nav {
+        font-size: 24px;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .nav {
+        font-size: 18px;
+        margin: 0px 25px
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .nav {
+        font-size: 16px;
+        margin: 0px 12.5px;
+    }
+
+    .left {
+        gap: 25px;
+    }
+}
+
+a {
+    text-decoration: none;
+    color: white
+}
